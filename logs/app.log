@@ -2594,3 +2594,51 @@
 2025-12-09 11:57:19,402 INFO Transaction Processed: {'order_id': 91952, 'amount': 345.32, 'status': 'CANCELLED', 'customer_id': 29}
 2025-12-09 11:57:21,404 INFO Transaction Processed: {'order_id': 94773, 'amount': 54.03, 'status': 'ORDERED', 'customer_id': 53}
 2025-12-09 11:57:23,405 INFO Transaction Processed: {'order_id': 39488, 'amount': 216.56, 'status': 'CANCELLED', 'customer_id': 249}
+I N F O   s m o k e   1 2 / 1 1 / 2 0 2 5   1 1 : 0 6 : 4 3  
+ I N F O   s m o k e   1 2 / 1 1 / 2 0 2 5   1 1 : 2 1 : 4 2  
+ I N F O   t e s t   1 2 / 1 1 / 2 0 2 5   1 3 : 3 9 : 1 6  
+ I N F O   t e s t   1 2 / 1 1 / 2 0 2 5   1 3 : 4 0 : 5 0  
+ I N F O   t e s t   1 2 / 1 1 / 2 0 2 5   1 3 : 4 2 : 1 0  
+ I N F O   t e s t   1 2 / 1 1 / 2 0 2 5   1 3 : 4 4 : 4 6  
+ I N F O   t e s t   1 2 / 1 1 / 2 0 2 5   1 3 : 4 6 : 2 8  
+ 2025-12-11 14:33:44,490 INFO <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:19092 <connecting> [IPv6 ('::1', 19092, 0, 0)]>: connecting to localhost:19092 [('::1', 19092, 0, 0) IPv6]
+2025-12-11 14:33:44,512 INFO <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:19092 <checking_api_versions_recv> [IPv6 ('::1', 19092, 0, 0)]>: Broker version identified as 2.6
+2025-12-11 14:33:44,512 INFO <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:19092 <connected> [IPv6 ('::1', 19092, 0, 0)]>: Connection complete.
+2025-12-11 14:33:47,322 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:33:47,323 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:33:47,323 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:33:47,323 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:33:50,062 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:33:50,062 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:33:50,062 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:33:50,062 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:33:52,813 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:33:52,813 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:33:52,814 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:33:52,814 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:33:55,568 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:33:55,568 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:33:55,568 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:33:55,568 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:33:58,340 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:33:58,340 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:33:58,341 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:33:58,341 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:34:01,099 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:34:01,099 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:34:01,099 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:34:01,100 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:34:03,854 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:34:03,855 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:34:03,855 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:34:03,855 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:34:07,178 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:34:07,178 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:34:07,178 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:34:07,178 WARNING Node 1 connection failed -- refreshing metadata
+2025-12-11 14:34:13,642 WARNING DNS lookup failed for kafka:9092, exception was [Errno 11001] getaddrinfo failed. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-12-11 14:34:13,642 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: DNS lookup failed for kafka:9092 (0)
+2025-12-11 14:34:13,642 ERROR <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-12-11 14:34:13,643 WARNING Node 1 connection failed -- refreshing metadata
+TEST LOG ENTRY 12/11/2025 14:37:46
+FINAL TEST LOG ENTRY 12/11/2025 14:40:26

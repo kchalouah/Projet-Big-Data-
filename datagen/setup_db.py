@@ -19,7 +19,7 @@ def seeding():
     for i in range(10):
         try:
             print(f"Connecting to DB (Attempt {i+1})...")
-            engine = create_engine('mysql+pymysql://root:root@localhost:3307/retail_db')
+            engine = create_engine('mysql+pymysql://root:root@localhost:13307/retail_db')
             with engine.connect() as conn:
                 print("Connected!")
             break

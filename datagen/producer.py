@@ -16,7 +16,7 @@ def get_producer():
     for i in range(10):
         try:
             producer = KafkaProducer(
-                bootstrap_servers=['localhost:9092'],
+                bootstrap_servers=['localhost:19092'],
                 value_serializer=lambda x: json.dumps(x).encode('utf-8')
             )
             print("Connected to Kafka!")
