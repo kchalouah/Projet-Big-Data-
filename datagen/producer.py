@@ -17,7 +17,10 @@ def get_producer():
         try:
             producer = KafkaProducer(
                 bootstrap_servers=['localhost:19092'],
-                value_serializer=lambda x: json.dumps(x).encode('utf-8')
+                value_serializer=lambda x: json.dumps(x).encode('utf-8'),
+                api_version=(2, 0, 2), # Force version to avoid hanging on detection
+                request_timeout_ms=5000,
+                max_block_ms=5000
             )
             print("Connected to Kafka!")
             return producer
@@ -52,7 +55,7 @@ def generate_transactions():
             # Write to Log (Flume path)
             logging.info(f"Transaction Processed: {transaction}")
             
-            time.sleep(2)
+            time.sleep(0.5)
     except KeyboardInterrupt:
         print("Stopping generator.")
 

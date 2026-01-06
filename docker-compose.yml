@@ -50,7 +50,7 @@ services:
     working_dir: /app
     ports:
       - "18501:8501"
-    command: sh -c "pip install streamlit pandas sqlalchemy pymysql plotly cryptography protobuf && streamlit run app.py"
+    command: sh -c "pip install streamlit pandas sqlalchemy pymysql plotly cryptography protobuf kafka-python kazoo && streamlit run app.py"
     depends_on:
       - mysql
 
